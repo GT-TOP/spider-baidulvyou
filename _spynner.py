@@ -1,4 +1,6 @@
 #-*-coding: utf-8 -*-
+#之前将该文件命名为spynner.py导致出错，与spynner库冲突
+#该程序可以抓取到JS文件执行后的HTML
 import spynner
 import sys
 reload(sys)
